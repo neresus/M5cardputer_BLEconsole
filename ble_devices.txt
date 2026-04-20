@@ -1,0 +1,6 @@
+# Preferred devices by BLE address.
+# Format:
+# AA:BB:CC:DD:EE:FF|Friendly label|pass|command to track
+
+48:87:2D:7F:A7:49|868927081490810|123456|SETCNT
+48:87:2D:9B:D3:8C|863663069841782|123456|distance

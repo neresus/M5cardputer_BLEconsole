@@ -1,0 +1,20 @@
+# Predefined commands for the commands panel.
+# Format:
+# Optional label|Actual command text
+
+stetus|AT+CFG
+1hour|AT+TDC=3600
+10min|AT+TDC=600
+reset|ATZ
+cpl03mode|AT+MOD=2
+servAddr|AT+SERVADDR=test.mosquitto.org,1883
+client|AT+CLIENT=your_name
+pub|AT+PUBTOPIC=pubmsg
+sub|AT+SUBTOPIC=submsg
+apn|AT+APN=internet
+pro|AT+PRO=2,0
+countmod|AT+COUNTMOD=0
+calcflag|AT+CALCFLAG=0 
+clocklog|AT+CLOCKLOG=1,0,15,4 
+user|AT+UNAME=login
+pwd|AT+PWD=passwd
